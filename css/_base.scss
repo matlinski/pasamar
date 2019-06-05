@@ -16,17 +16,15 @@ body{
 
 .flipbook-viewport .container{
 	position:absolute;
-	top:50%;
-	left:50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	margin:auto;
 }
 
 .flipbook-viewport .flipbook{
 	width:691.5px;
 	height:450px;
-	left: -60%;
-	bottom: 25vh;
-	transform: translateX(50%);
 }
 
 .flipbook-viewport .page{
