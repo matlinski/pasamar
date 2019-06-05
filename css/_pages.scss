@@ -3,7 +3,7 @@
     width: 100%;
     height: 100%;
     background-image: url("../res/inner-bg.jpg");
-    background-size: 250px;
+    background-size: 175px;
     background-blend-mode: multiply;
     & .wrapper{
         width: 100%;
@@ -32,12 +32,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 0.5rem;
-    margin-top: -2px;
-    margin-bottom: -2px;
+    padding: 0.2rem;
     padding: 0.75rem 0;
     &__image{
-        width: 70px;
+        width: 2.5rem;
         border-radius: 50%;
     }
     &__desc{

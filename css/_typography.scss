@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
+:root{
+    font-size: 13px;
+}
+
 *,
 *::before,
 *::after{
@@ -23,10 +27,12 @@ h2{
     margin-bottom: 0.5em;
     text-align: center;
     text-decoration: underline;
+    font-size: 1.5rem;
 }
 h3{
     color: $medium-blue;
     text-align: center;
+    font-size: 1.25rem;
 }
 .page1,
 .page4{
@@ -35,5 +41,5 @@ h3{
     }
 }
 .margin-needed{
-    margin-top: 49px;
+    margin-top: 1rem;
 }
